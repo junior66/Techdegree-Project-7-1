@@ -8,6 +8,7 @@
         "head"
         "pageNav"
         "mainContent";
+}
 
     @media (min-width: 768px) {
         .grid-container {
@@ -18,11 +19,12 @@
         .grid-container {
             grid-template-columns: 60px 1fr;
             grid-template-rows: 60px 1fr;
-     }
+     
 
     grid-template-areas:
         "head head"
         "pageNav mainContent";
+    }
 
     header {
         grid-area: head;
@@ -37,6 +39,6 @@
     }
 }
 
-}
+
 
 
