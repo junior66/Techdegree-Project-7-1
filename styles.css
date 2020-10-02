@@ -39,6 +39,14 @@
         display: grid;
         grid-gap: 2px;
     }
+
+    .half-size-charts,
+    .social-media-info,
+    .member-info,
+    .message-and-settings {
+        display: grid;
+        grid-gap: 2px;
+    }
 }
 
 
