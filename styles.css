@@ -36,6 +36,55 @@
         display: flex;
     }
 
+    .toggle-switch {
+        position: absolute;
+        visibility: hidden;
+      }
+      .toggle-state {
+        cursor: pointer;
+        position: relative;
+        background: grey;
+        display: inline-block;
+        width: 90px;
+        height: 32px;
+        vertical-align: middle;
+        border-radius: 50px;
+      }
+      .toggle-state::before,
+      .toggle-state::after {
+        color: #fff;
+        transition: left 0.25s;
+        text-transform: uppercase;
+        font-weight: bold;
+      }
+      .toggle-state::before {
+        content: "";
+        left: 6px;
+        top: 6px;
+        position: absolute;
+        background: #fff;
+        display: inline-block;
+        width: 20px;
+        height: 20px;
+        border-radius: 50px;
+      }
+      .toggle-state::after {
+        content: "off";
+        position: relative;
+        left: 50px;
+        top: 8px;
+      }
+      .toggle-switch:checked + .toggle-state {
+        background: green;
+      }
+      .toggle-switch:checked + .toggle-state::before {
+        left: 57.5px;
+      }
+      .toggle-switch:checked + .toggle-state::after {
+        left: 9.5px;
+        content: "on";
+      }
+
     @media (min-width: 768px) {
         .grid-container {
             grid-template-rows: 70px 60px 1fr;
