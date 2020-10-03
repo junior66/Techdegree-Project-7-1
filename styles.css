@@ -24,6 +24,7 @@
     
     nav {
         grid-area: pageNav;
+        /* display: flex; */
     }
     
     main {
