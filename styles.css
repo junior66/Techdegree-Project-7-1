@@ -38,6 +38,10 @@
         display: flex;
     }
 
+    .profile-image {
+      border-radius: 50%;
+    }
+
     .toggle-switch {
         position: absolute;
         visibility: hidden;
