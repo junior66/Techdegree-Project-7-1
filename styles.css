@@ -42,6 +42,10 @@
       border-radius: 50%;
     }
 
+    .social-image svg, .bell {
+      width: 50px;
+    }
+
     .toggle-switch {
         position: absolute;
         visibility: hidden;
