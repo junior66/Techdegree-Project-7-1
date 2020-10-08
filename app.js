@@ -30,7 +30,7 @@ let trafficData = {
     };
 
     let trafficOptions = {
-        aspectRatio: 2.5 ,
+        maintainAspectRatio: false ,
         animation: {
         duration: 0
         },
@@ -115,8 +115,8 @@ let mobileChart = new Chart(mobileCanvas, {
     });
 
 const user = document .getElementById( "userField" );
-const message = document .getElementById( "messageField" );
-const send = document .getElementById( "send" );
+const message = document.getElementById( "messageField" );
+const send = document.getElementById( "send" );
 
 send.addEventListener( 'click' , () => {
     // ensure user and message fields are filled out
