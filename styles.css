@@ -96,6 +96,10 @@
         display: block;
     }
 
+    .button-save {
+        display: inline-block;
+        }
+
     .toggle-switch {
         position: absolute;
         visibility: hidden;
