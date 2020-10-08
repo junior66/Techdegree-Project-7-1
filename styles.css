@@ -24,15 +24,22 @@
     header {
         grid-area: head;
         display: flex;
-        justify-content: space-between;
         
+    }
+
+    .margin-right {
+        display: flex;
     }
     
     nav {
         grid-area: pageNav;
         display: flex;
-        justify-content: space-between;
     }
+
+    .nav-img {
+        display: inline;
+    }
+   
     
     main {
         grid-area: mainContent;
@@ -43,6 +50,8 @@
     .bell {
       width: 30px;
     }
+
+   
 
     .dash-top {
         display: flex;
