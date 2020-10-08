@@ -90,6 +90,12 @@
         margin-left: auto;
     }
 
+    .form-field,
+    .form-area,
+    .button-primary {
+        display: block;
+    }
+
     .toggle-switch {
         position: absolute;
         visibility: hidden;
