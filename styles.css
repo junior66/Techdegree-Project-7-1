@@ -49,9 +49,14 @@
       width: 40px;
     }
 
-    .social-media-info,
-    .members-container {
+    .social-media-info {
       display: flex;
+    }
+
+    .members-container {
+        display: flex;
+        margin-bottom: 20px;
+        border-bottom: 1px solid #AFEEEE;
     }
 
     .social-image svg {
