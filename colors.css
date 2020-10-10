@@ -30,8 +30,12 @@ body {
 	background: rgba(108, 108, 211, 0.2);
 }
 
+.alert {
+	color: white;
+}
 
-header {
+header,
+.alert {
 	background: #7477BF;
 }
 nav {

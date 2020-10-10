@@ -20,6 +20,10 @@
         grid-template-columns: repeat(auto-fit, minmax(500px, 1fr));
     }
     
+    h1 {
+      padding: 5px;
+      color: #FFFAF0;
+    }
 
     header {
         grid-area: head;
@@ -28,7 +32,19 @@
         
     }
 
-    .margin-right {
+    .header-img {
+      border-radius: 50%;
+      margin: 10px;
+      width: 100px;
+    }
+
+    .header-name {
+      padding-top: 15px;
+      padding-right: 20px;
+      color: #FFFAF0;
+    }
+
+    .header-right {
         display: flex;
     }
     
@@ -51,7 +67,9 @@
     }
 
     .bell {
-      width: 30px;
+      width: 25px;
+      margin-top: 15px;
+      margin-right: 40px;
     }
 
    
@@ -166,6 +184,10 @@
         "head head"
         "pageNav mainContent";
     }
+
+    /* .nav-img {
+      width: 100%;
+    } */
 
     .half-size-charts,
     .social-media-info,
