@@ -93,7 +93,10 @@
       margin-right: 10px;
     }
 
-    
+    .search {
+      padding: 10px;
+      width: 200px;
+    }
 
     .profile-image {
       border-radius: 50%;
