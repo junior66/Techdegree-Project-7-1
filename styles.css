@@ -22,7 +22,7 @@
     
     h1 {
       padding: 5px;
-      color: #FFFAF0;
+      color: white;
     }
 
     header {
@@ -81,9 +81,22 @@
     .dash-top {
         display: flex;
         justify-content: space-between;
+        margin-top: 15px;
+        margin-bottom: 30px;
     }
 
-    
+    .headline {
+      font-weight: normal;
+    }
+
+    .main-header-search {
+      margin-right: 10px;
+    }
+
+    .search {
+      padding: 10px;
+      width: 400px;
+    }
 
     .profile-image {
       border-radius: 50%;
