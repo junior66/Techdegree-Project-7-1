@@ -93,10 +93,7 @@
       margin-right: 10px;
     }
 
-    .search {
-      padding: 10px;
-      width: 400px;
-    }
+    
 
     .profile-image {
       border-radius: 50%;
@@ -202,9 +199,10 @@
         "pageNav mainContent";
     }
 
-    /* .nav-img {
-      width: 100%;
-    } */
+    .search {
+      padding: 10px;
+      width: 400px;
+    }
 
     .half-size-charts,
     .social-media-info,
