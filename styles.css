@@ -207,6 +207,10 @@
       width: 400px;
     }
 
+    nav {
+      flex-direction: column;
+    }
+
     .half-size-charts,
     .social-media-info,
     .member-info,
