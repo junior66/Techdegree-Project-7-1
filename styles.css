@@ -103,6 +103,11 @@
       width: 40px;
     }
 
+    .alert-banner {
+      display: flex;
+      justify-content: space-between;
+    }
+
     .social-media-info {
       display: flex;
     }
