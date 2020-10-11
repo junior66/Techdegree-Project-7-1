@@ -108,6 +108,12 @@
       justify-content: space-between;
     }
 
+    .traffic-nav {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+    }
+
     .social-media-info {
       display: flex;
     }
