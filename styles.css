@@ -106,12 +106,34 @@
     .alert-banner {
       display: flex;
       justify-content: space-between;
+      font-size: 20px;
     }
 
     .traffic-nav {
       list-style-type: none;
       margin: 0;
       padding: 0;
+      display: flex;
+    }
+
+    .traffic-nav li {
+      margin-left: 30px;
+    }
+
+    .traffic-header {
+      display: flex;
+      justify-content: space-between;
+      margin-top: 40px;
+      margin-bottom: 30px;
+    }
+
+    .active {
+      color: #fff;
+      background-color: green;
+      font-size: 20px;
+      padding: 0 10px;
+      border-radius: 20%;
+
     }
 
     .social-media-info {
