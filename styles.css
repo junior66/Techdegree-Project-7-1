@@ -1,6 +1,6 @@
-/* * {
+* {
     border: 1px solid red;
-} */
+}
 
 .grid-container {
     display: grid;
@@ -35,6 +35,7 @@
     header {
         grid-area: head;
         display: flex;
+        
         
         
     }
@@ -155,6 +156,10 @@
       width: 50px;
     }
 
+    .social-number {
+      font-size: 5px;
+    }
+
     .members-container {
         display: flex;
         margin-bottom: 20px;
@@ -245,6 +250,10 @@
       justify-content: space-between;
     }
 
+    h1 {
+      padding: 10px;
+    }
+
     .bell {
       margin-right: 30px;
     }
@@ -271,6 +280,11 @@
 
     nav {
       flex-direction: column;
+    }
+
+    .nav-img {
+      margin-top: 50px;
+      height: 5%;
     }
 
     main {
