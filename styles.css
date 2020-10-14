@@ -1,6 +1,6 @@
-/* * {
+* {
     border: 1px solid red;
-} */
+}
 
 .grid-container {
     display: grid;
@@ -19,20 +19,23 @@
     .message-and-settings {
         grid-template-columns: repeat(auto-fit, minmax(500px, 1fr));
     }
-
-    main {
-      margin: 1%;
-    }
     
     h1 {
       padding: 5px;
       color: white;
+      font-size: 25px;
+    }
+
+    h1:after {
+      content:  "TM";
+      font-size: 10px;
+      position: absolute;
     }
 
     header {
         grid-area: head;
         display: flex;
-        justify-content: space-between;
+        
         
     }
 
@@ -42,7 +45,7 @@
       margin-bottom: 10px;
       margin-right: 5px;
       margin-left: 10px;
-      width: 60px;
+      width: 40px;
     }
 
     .header-name {
@@ -63,9 +66,7 @@
 
     .nav-img {
         width: 70px;
-        margin: auto;
-        padding: 5px;
-
+        margin: 5px;
     }
    
     
@@ -78,16 +79,15 @@
     .bell {
       width: 25px;
       margin-top: 15px;
-      margin-right: 30px;
+      margin-left: 10px;
+      
     }
 
    
 
     .dash-top {
         display: flex;
-        justify-content: space-between;
-        margin-top: 15px;
-        margin-bottom: 30px;
+        
     }
 
     .headline {
@@ -111,7 +111,7 @@
     .alert-banner {
       display: flex;
       justify-content: space-between;
-      font-size: 20px;
+      font-size: 1em;
       margin: auto;
       padding: 10px;
     }
@@ -125,13 +125,12 @@
     }
 
     .traffic-nav li {
-      margin-left: 30px;
+      margin-left: 5px;
     }
 
     .traffic-header {
       display: flex;
       justify-content: space-between;
-      margin-top: 40px;
       margin-bottom: 30px;
     }
 
@@ -243,6 +242,25 @@
         "pageNav mainContent";
     }
 
+    header {
+      display: flex;
+      justify-content: space-between;
+    }
+
+    .bell {
+      margin-right: 30px;
+    }
+
+    .dash-top {
+      display: flex;
+      justify-content: space-between;
+      margin-top: 15px;
+      margin-bottom: 30px;
+
+    main {
+      margin: 1%;
+    }
+
     .search {
       padding: 10px;
       width: 400px;
@@ -250,6 +268,10 @@
 
     nav {
       flex-direction: column;
+    }
+
+    .traffic-header {
+      margin-top: 40px;
     }
 
     .half-size-charts,
