@@ -333,3 +333,8 @@
   font-size: 50px;
 }
 
+.more-than-sign {
+  display: inline-block;
+  width: 20px;
+}
+
