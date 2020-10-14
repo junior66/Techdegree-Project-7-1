@@ -1,6 +1,6 @@
-* {
+/* * {
     border: 1px solid red;
-}
+} */
 
 .grid-container {
     display: grid;
@@ -66,7 +66,7 @@
 
     .nav-img {
         width: 70px;
-        margin: 5px;
+        margin: 2px;
     }
    
     
@@ -112,8 +112,6 @@
       display: flex;
       justify-content: space-between;
       font-size: 1em;
-      margin: auto;
-      padding: 10px;
     }
 
 
@@ -257,17 +255,26 @@
       margin-top: 15px;
       margin-bottom: 30px;
 
-    main {
-      margin: 1%;
     }
+
+   
 
     .search {
       padding: 10px;
       width: 400px;
     }
 
+    .alert {
+      font-size: 20px;
+      padding: 10px;
+    }
+
     nav {
       flex-direction: column;
+    }
+
+    main {
+      margin: 1%;
     }
 
     .traffic-header {
