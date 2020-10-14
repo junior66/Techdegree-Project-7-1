@@ -115,8 +115,6 @@
       font-size: 1em;
     }
 
-
-
     .traffic-nav {
       list-style-type: none;
       margin: 0;
@@ -143,10 +141,6 @@
 
     }
 
-    /* .social-media-info {
-      display: flex;
-    } */
-
     .social-1, 
     .social-2,
     .social-3 {
@@ -171,6 +165,8 @@
     .form-area,
     .button-primary {
         display: block;
+        width: 100%;
+        margin: 15px;
     }
 
     .button-save {

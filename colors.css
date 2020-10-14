@@ -33,8 +33,10 @@ body {
 }
 
 header,
-.alert {
+.alert,
+.button-primary {
 	background: #7477BF;
+	color: #fff;
 }
 nav {
 	background: #4D4C71;
