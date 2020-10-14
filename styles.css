@@ -116,6 +116,7 @@
     }
 
 
+
     .traffic-nav {
       list-style-type: none;
       margin: 0;
@@ -129,7 +130,7 @@
 
     .traffic-header {
       display: flex;
-      justify-content: space-between;
+      /* justify-content: space-between; */
       margin-bottom: 30px;
     }
 
@@ -142,9 +143,9 @@
 
     }
 
-    .social-media-info {
+    /* .social-media-info {
       display: flex;
-    }
+    } */
 
     .social-1, 
     .social-2,
@@ -154,10 +155,6 @@
 
     .social-image svg {
       width: 50px;
-    }
-
-    .social-number {
-      font-size: 5px;
     }
 
     .members-container {
@@ -278,6 +275,10 @@
       padding: 10px;
     }
 
+    .alert-banner-close {
+      font-size: 20px;
+    }
+
     nav {
       flex-direction: column;
     }
@@ -293,6 +294,12 @@
 
     .traffic-header {
       margin-top: 40px;
+      display: flex;
+      justify-content: space-between;
+    }
+
+    .traffic-nav li {
+      margin-left: 30px;
     }
 
     .half-size-charts,
