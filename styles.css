@@ -168,10 +168,24 @@
         width: 100%;
         margin: 15px;
     }
+    
+    .email-notifs,
+    .set-public {
+      margin-top: 20px;
+    }
 
-    .button-save {
-        display: inline-block;
-        }
+    .settings-button {
+      display: flex;
+      justify-content: space-around;
+      
+    }
+
+    .button-save,
+    .button-disabled {
+      flex-basis: 45%;
+      
+     
+    }
 
     .toggle-switch {
         position: absolute;
