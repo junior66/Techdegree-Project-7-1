@@ -348,3 +348,21 @@
   width: 20px;
 }
 
+.form-field,
+.form-area {
+  padding: 10px;
+}
+
+.email-notifs,
+.set-public {
+  margin-top: 30px;
+}
+
+.settings-button {
+  margin-top: 35px;
+}
+
+#timezone {
+  margin-top: 50px;
+}
+
