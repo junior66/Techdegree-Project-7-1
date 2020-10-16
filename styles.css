@@ -90,9 +90,15 @@
       
     }
 
+    #bell-notifs {
+      position: absolute;
+    }
+    
     .bell-and-notifs {
       position: relative;
     }
+
+
 
     .bell-and-notifs:after {
       content: '';
@@ -103,7 +109,7 @@
       background-color: #98FB98;
       position: absolute;
       top: 10px;
-      left: 142px;
+      left: 30px;
     }
 
    
@@ -169,12 +175,13 @@
         flex-grow: 1;
     }
 
+    .social-image {
+      background-color: #7477BF;
+      border-radius: 50%;
+          }
+
     .social-image svg {
       width: 50px;
-    }
-
-    circle {
-      fill: blue;
     }
 
     .members-container {
