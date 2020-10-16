@@ -90,6 +90,18 @@
       
     }
 
+    .bell-and-notifs:after {
+      content: '';
+      display: inline-block;
+      width: 10px;
+      height: 10px;
+      border-radius: 50%;
+      background-color: #98FB98;
+      position: fixed;
+      top: 10px;
+      left: 142px;
+    }
+
    
 
     .dash-top {
@@ -155,6 +167,10 @@
 
     .social-image svg {
       width: 50px;
+    }
+
+    circle {
+      fill: blue;
     }
 
     .members-container {
