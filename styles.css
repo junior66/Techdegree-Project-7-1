@@ -169,6 +169,11 @@
 
     }
 
+    .social-media-info svg {
+      padding-top: 20px;
+      height: 50px;
+    }
+
     .social-1, 
     .social-2,
     .social-3 {
@@ -178,7 +183,8 @@
     .social-image {
       background-color: #7477BF;
       border-radius: 50%;
-          }
+          
+    }
 
     .social-image svg {
       width: 50px;
