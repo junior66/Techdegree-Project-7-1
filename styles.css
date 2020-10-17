@@ -36,6 +36,15 @@
       font-weight: normal;
     }
 
+    .traffic-header,
+    .daily-traffic,
+    .mobile-users,
+    .social-stats,
+    members-1,
+    members-2 {
+      margin-bottom: 30px;
+    }
+
     header {
         grid-area: head;
         display: flex;    
@@ -150,10 +159,6 @@
       font-size: 1em;
     }
 
-    .daily-traffic {
-      margin-bottom: 30px;
-    }
-
     .traffic-nav {
       list-style-type: none;
       margin: 0;
@@ -161,14 +166,9 @@
       display: flex;
     }
 
-    .traffic-nav li {
-      margin-left: 5px;
-    }
-
     .traffic-header {
       display: flex;
       justify-content: space-between;
-      margin-bottom: 30px;
     }
 
     .active {
