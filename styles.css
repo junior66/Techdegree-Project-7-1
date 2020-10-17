@@ -94,7 +94,7 @@
       width: 25px;
       margin-top: 15px;
       margin-left: 10px;
-      transition: margin-bottom 2s ease-in-out .5s;
+      transition: background-color .5s ease-in-out .5s;
     }
 
     .bell:hover {
