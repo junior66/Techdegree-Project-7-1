@@ -300,6 +300,10 @@
         .grid-container {
             grid-template-rows: 70px 60px 1fr;
         }
+        
+        h3 {
+          text-transform: uppercase;
+        }
     }
     @media (min-width: 1024px) {
         .grid-container {
@@ -319,6 +323,10 @@
 
     h1 {
       padding: 10px;
+    }
+
+    h3 {
+      text-transform: uppercase;
     }
 
     .bell {
