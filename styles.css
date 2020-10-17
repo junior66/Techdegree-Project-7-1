@@ -310,6 +310,20 @@
           margin: auto;
         
         }
+
+        header {
+          display: flex;
+          justify-content: space-between;
+        }
+
+        .bell {
+          margin-right: 30px;
+        }
+
+        .nav-img {
+          margin: auto;
+          padding-top: 10px;
+        }
     }
     @media (min-width: 1024px) {
         .grid-container {
