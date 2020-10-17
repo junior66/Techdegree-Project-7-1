@@ -42,10 +42,6 @@
         
     }
 
-    main {
-      margin: 1%;
-    }
-
     .header-img {
       border-radius: 50%;
       margin-top: 10px;
@@ -64,6 +60,7 @@
 
     .header-right {
         display: flex;
+        position: relative;
     }
     
     nav {
@@ -81,13 +78,18 @@
         grid-area: mainContent;
         display: grid;
         grid-gap: 2px;
+        margin: 1%;
     }
 
     .bell {
       width: 25px;
       margin-top: 15px;
       margin-left: 10px;
-      
+      transition: margin-bottom 2s ease-in-out .5s;
+    }
+
+    .bell:hover {
+      background-color: gold;
     }
 
     #bell-notifs {
@@ -119,6 +121,10 @@
         
     }
 
+    .new-section {
+      margin: 20px 0;
+    }
+
     .headline {
       font-weight: normal;
     }
@@ -141,6 +147,10 @@
       display: flex;
       justify-content: space-between;
       font-size: 1em;
+    }
+
+    .daily-traffic {
+      margin-bottom: 30px;
     }
 
     .traffic-nav {
@@ -205,7 +215,8 @@
     .button-primary {
         display: block;
         width: 100%;
-        margin: 15px;
+        margin: auto;
+        margin-bottom: 15px;
     }
     
     .email-notifs,
@@ -306,6 +317,13 @@
 
     .bell {
       margin-right: 30px;
+    }
+
+    .vl {
+      height: 60%;
+      border-left: 2px solid red;
+      margin: auto;
+    
     }
 
     .dash-top {
@@ -413,4 +431,9 @@
 .button-disabled,
 .button-save {
   padding: 15px;
+}
+
+.button-disabled,
+.button-save {
+  margin-top: -10px;
 }
