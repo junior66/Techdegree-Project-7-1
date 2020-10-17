@@ -62,7 +62,7 @@
 
     .header-name {
       padding-top: 20px;
-      padding-right: 20px;
+      /* padding-right: 10px; */
       color: #FFFAF0;
       font-weight: normal;
     }
@@ -79,7 +79,7 @@
 
     .nav-img {
         width: 70px;
-        margin: 7px;
+        
     }
    
     
@@ -139,9 +139,7 @@
       font-weight: normal;
     }
 
-    .main-header-search {
-      margin-right: 10px;
-    }
+    
 
     .search {
       padding: 10px;
