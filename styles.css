@@ -66,11 +66,13 @@
     nav {
         grid-area: pageNav;
         display: flex;
+        margin: auto;
     }
 
     .nav-img {
         width: 70px;
         margin: 7px;
+        
     }
    
     
@@ -85,7 +87,7 @@
       width: 25px;
       margin-top: 15px;
       margin-left: 10px;
-      transition: margin-bottom 2s ease-in-out .5s;
+      transition: all .5s linear .5s;
     }
 
     .bell:hover {
