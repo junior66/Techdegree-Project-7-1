@@ -48,7 +48,7 @@
     header {
         grid-area: head;
         display: flex;
-        justify-content: stretch;
+        
         
     }
 
