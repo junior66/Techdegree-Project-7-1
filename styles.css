@@ -78,9 +78,14 @@
         display: flex;
     }
 
+    a {
+      display: inline-block;
+    }
+
     .nav-img {
         width: 70px;
         padding-top: 10px;
+        margin: auto;
         
     }
    
