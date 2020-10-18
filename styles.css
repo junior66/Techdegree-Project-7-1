@@ -48,7 +48,7 @@
     header {
         grid-area: head;
         display: flex;
-        
+        align-items: center;
         
     }
 
@@ -95,6 +95,7 @@
         display: grid;
         grid-gap: 2px;
         grid-template-columns: minmax(0, 1fr);
+        padding: 0 10px;
         /* margin: 1%; */
     }
 
@@ -457,7 +458,6 @@
 
 .more-than-sign {
   display: inline-block;
-  width: 20px;
 }
 
 .form-field,
