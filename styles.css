@@ -250,11 +250,15 @@
       border: none;
     }
 
+    label {
+      display: flex;
+      justify-content: space-between;
+    }
+
+    
     .button-save,
     .button-disabled {
       flex-basis: 45%;
-      
-     
     }
 
     .toggle-switch {
