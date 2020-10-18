@@ -260,10 +260,12 @@
 		
 					<!-- custom CSS toggle code -->
 		
-					<select class="form-field" id="timezone">
-						<option disabled selected>Select Timezone</option>
-						<option Eastern></option>
+					<select name="time" class="form-field" id="timezone">
+						<option disabled selected value="timezone">Select Timezone</option>
+						<option value="eastern">Eastern</option>
 						<!-- more options -->
+						<option value="pacific">Pacific</option>
+						<option value="mountain">Mountain Time</option>
 					</select>
 					<div class="settings-button">
 						<button class="button-save" id="save">SAVE</button>
