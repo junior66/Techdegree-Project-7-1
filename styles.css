@@ -5,7 +5,7 @@
 .grid-container {
     display: grid;
     height: 100%;
-    grid-template-columns: 1fr;
+    grid-template-columns: minmax(0, 1fr);
     grid-template-rows: 60px 50px 1fr;
     
     grid-template-areas: 
@@ -47,7 +47,8 @@
 
     header {
         grid-area: head;
-        display: flex;    
+        display: flex;
+        justify-content: stretch;
         
     }
 
@@ -79,6 +80,7 @@
 
     .nav-img {
         width: 70px;
+        padding-top: 10px;
         
     }
    
@@ -87,6 +89,7 @@
         grid-area: mainContent;
         display: grid;
         grid-gap: 2px;
+        grid-template-columns: minmax(0, 1fr);
         /* margin: 1%; */
     }
 
@@ -155,13 +158,17 @@
       display: flex;
       justify-content: space-between;
       font-size: 1em;
+      padding: 10px;
     }
 
     .traffic-nav {
       list-style-type: none;
       margin: 0;
-      padding: 0;
       display: flex;
+    }
+
+    .traffic-nav li {
+      padding: 0 5px;
     }
 
     .traffic-header {
@@ -209,6 +216,10 @@
         display: flex;
         margin-bottom: 20px;
         border-bottom: 1px solid #AFEEEE;
+    }
+
+    .members-text + p {
+      font-size: 10px;
     }
 
     div + p {
