@@ -226,7 +226,8 @@
     .image-and-text {
       display: flex;
       flex-direction: column;
-      width: 230.66px;
+      flex-grow: 1;
+      width: 258px;
     }
 
     .members-text + p {
@@ -259,7 +260,6 @@
 
     label {
       display: flex;
-      width: 300px;
       justify-content: space-between;
     }
 
@@ -485,7 +485,6 @@
 .toggle-swich,
 .toggle-state {
   display: inline-block;
-  margin-left: 50px;
 }
 
 #timezone {
