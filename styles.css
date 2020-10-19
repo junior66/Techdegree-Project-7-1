@@ -96,7 +96,6 @@
         grid-gap: 2px;
         grid-template-columns: minmax(0, 1fr);
         padding: 0 10px;
-        /* margin: 1%; */
     }
 
     .bell {
