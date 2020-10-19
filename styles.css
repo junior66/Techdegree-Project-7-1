@@ -223,12 +223,14 @@
         border-bottom: 1px solid #AFEEEE;
     }
 
-    .members-text + p {
-      font-size: 10px;
+    .image-and-text {
+      display: flex;
+      flex-direction: column;
+      width: 230.66px;
     }
 
-    div + p {
-        margin-left: auto;
+    .members-text + p {
+      font-size: 10px;
     }
 
     .form-field,
@@ -348,6 +350,13 @@
         .nav-img {
           margin: 5px;
           padding-top: 10px;
+        }
+
+        .image-and-text {
+          display: flex;
+          flex-direction: row;
+          flex-grow: 1;
+          width: unset;
         }
     }
     @media (min-width: 1024px) {
