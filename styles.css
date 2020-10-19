@@ -204,12 +204,16 @@
 
     .social-image {
       background-color: #7477BF;
+      width: 40px;
+      height: 40px;
+      padding: 10px;
       border-radius: 50%;
           
     }
 
     .social-image svg {
-      width: 50px;
+      width: 100%;
+      height: auto;
     }
 
     .new-members,
@@ -220,6 +224,7 @@
 
     .members-container {
         display: flex;
+        flex-wrap: wrap;
         margin-bottom: 20px;
         border-bottom: 1px solid #AFEEEE;
     }
