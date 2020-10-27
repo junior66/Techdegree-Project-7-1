@@ -440,6 +440,13 @@
         grid-gap: 30px;
     }
 
+    .chart-1,
+    .members-1,
+    .message {
+      border-right: 1px solid;
+      margin: center;
+
+    }
     .social-media-info {
         grid-template-columns: repeat(3, 1fr);
      }
