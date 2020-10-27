@@ -111,15 +111,6 @@
 
     #bell-notifs {
       position: absolute;
-    }
-    
-    .bell-and-notifs {
-      position: relative;
-    }
-
-
-
-    .bell-and-notifs:after {
       content: '';
       display: inline-block;
       width: 10px;
@@ -130,6 +121,12 @@
       top: 10px;
       left: 30px;
     }
+    }
+    
+    .bell-and-notifs {
+      position: relative;
+    }
+      
 
    
 
@@ -328,9 +325,10 @@
         }
 
         .vl {
-          height: 60%;
-          border-left: 2px solid red;
+          border-left: 1px solid red;
+          height: 40px;
           margin: auto;
+      
         
         }
 
@@ -386,9 +384,10 @@
     }
 
     .vl {
-      height: 60%;
-      border-left: 2px solid red;
+      border-left: 1px solid red;
+      height: 40px;
       margin: auto;
+  
     
     }
 
