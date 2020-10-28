@@ -139,7 +139,7 @@
     .headline {
       font-weight: normal;
     }
-    
+
     .search {
       padding: 10px;
       width: 200px;
@@ -319,7 +319,7 @@
         }
 
         .vl {
-          border-left: 1px solid red;
+          border-left: 1px solid darkred;
           height: 40px;
           margin: auto;
       
@@ -378,7 +378,7 @@
     }
 
     .vl {
-      border-left: 1px solid red;
+      border-left: 1px solid darkred;
       height: 40px;
       margin: auto;
   
@@ -412,8 +412,9 @@
     }
 
     .nav-img {
-      margin-top: 50px;
+      margin-top: 30px;
       height: 5%;
+      padding: 20px 10px;
     }
 
     .traffic-header {
@@ -434,18 +435,25 @@
         grid-gap: 30px;
     }
 
+    .half-size-charts,
+    .member-info,
+    .message-and-settings {
+      border-top:1px solid lightblue;
+      border-bottom: 1px solid lightblue;
+      margin: 0;
+    }
+
     .chart-1,
     .members-1,
     .message {
-      border-right: 1px solid;
-      margin: center;
-
+      border-right: 1px solid lightblue;
+      padding: 10px;
+      
     }
+
     .social-media-info {
         grid-template-columns: repeat(3, 1fr);
      }
-     
-}
 
 .social-1,
 .social-2,
