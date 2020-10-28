@@ -72,6 +72,10 @@
         display: flex;
         position: relative;
     }
+
+    .vl {
+      display: none;
+    }
     
     nav {
         grid-area: pageNav;
@@ -121,7 +125,7 @@
       top: 10px;
       left: 30px;
     }
-    }
+    
     
     .bell-and-notifs {
       position: relative;
@@ -322,6 +326,7 @@
           border-left: 1px solid darkred;
           height: 40px;
           margin: auto;
+          display: block;
       
         
         }
@@ -510,3 +515,4 @@
 .button-save {
   margin-top: 10px;
 }
+    }
